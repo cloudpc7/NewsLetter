@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #36384D;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  width: 58rem;
+  height: 40.06rem;
+  flex-shrink: 0;
+  border-radius: 2.25rem;
+  background-color: #fff;
+  box-shadow: 0px 15px 60px 0px rgba(0, 0, 0, 0.25);
+  padding: 1.5rem;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-top: 4.9rem;
+  margin-bottom: 1.5rem;
+}
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding-left: 4rem;
+}
+
+.faqs {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+  margin-top: 1.5em;
+  padding-left: 1.5em;
+  list-style-image: url(./images/check.png);
+  width: 100%;
+}
+
+.faqs li {
+  padding-bottom: 1em;
+  line-height: 150%;
+}
+
+.faqs li::marker {
+  width: 1.25em;
+  height: 1.25em;
+}
+
+.email-form {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75em;
+  font-weight: 700;
+  line-height: 150%;
+  width: 23.5rem;
+}
+
+.form-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.email-form input {
+  width: 100%;
+  height: 3.5rem;
+  border-radius: 0.5em;
+  border: 1px solid #24742;
+  margin-bottom: 1.5em;
+  text-align: left;
+  padding-left: 5.5rem;
+}
+
+.email-form input:active {
+  border: 1px solid #24742;
+}
+
+.email-form input.active {
+  border: 1px solid #FF6155;
+  background: rgba(255, 97, 85, 0.15);
+  color: 1px solid #FF6155;
+}
+
+.btn {
+  width: 100%;
+  height: 3.5em;
+  border-radius: 0.5em;
+  background-color: #242742;
+  text-align: center;
+  color: #fff;
+}
+
+.invalid-email {
+  color: #FF6155;
+}
+
+.btn:hover {
+  background: linear-gradient(204deg, #FF6A3A 0%, #FF527B 100%);
+}
+
+.phone-image {
+  width: 25rem;
+  height: 37.06rem;
+}
+
+.phone {
+  border-radius: 1em;
+}
+
+/* success-card */
+
+.success-card {
+  display: none;
+  flex-direction: column;
+  padding: 4rem;
+  width: 31.5rem;
+  height: 32.5rem;
+  border-radius: 2.25rem;
+  background-color: #fff;
+}
+
+.checkmark {
+  width: 4rem;
+  height: 4rem;
+}
+
+.thanks {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3.5rem;
+  margin: 1.5rem 0;
+}
+
+.confirmation-message {
+  line-height: 1.5rem;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
