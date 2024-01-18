@@ -21,7 +21,7 @@ form.addEventListener('submit', function(event) {
   } else {
     card.style.display = "none"
     success.style.display = "flex"
-    confirmation.innerHTML = `A confirmation email has been sent to ${emailAddress}. Please open it and click the button inside to confirm your subscription.`
+    confirmation.innerHTML = `A confirmation email has been sent to <b>${emailAddress}</b>. Please open it and click the button inside to confirm your subscription.`
     email.value = ""
   }
 })
