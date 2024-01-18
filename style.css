@@ -76,14 +76,14 @@ h1, p {
   width: 23.5rem;
   height: 3.5rem;
   border-radius: 0.5em;
-  border: 1px solid #24742;
+  border: 1px solid rgba(25, 24, 43, 0.25);
   margin-bottom: 1.5em;
   text-align: left;
   padding-left: 5.5rem;
 }
 
 .email-form input:active {
-  border: 1px solid #24742;
+  border: none
 }
 
 .email-form input.active {
