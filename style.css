@@ -33,7 +33,7 @@ h1, p {
 .title {
   font-size: 3.5rem;
   font-weight: 700;
-  margin-top: 3.06rem;
+  margin-top: 4.06rem;
 }
 
 .description {
@@ -45,14 +45,15 @@ h1, p {
   display: flex;
   flex-direction: column;
   align-items: left;
-  padding-left: 4rem;
+  margin: 2rem;
 }
 
 .faqs {
   display: flex;
   flex-direction: column;
   list-style-image: url(./images/icon-list.svg);
-  padding-left: 1rem;
+  padding-left: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .email-form {
@@ -67,6 +68,7 @@ h1, p {
 .form-label {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 0.5rem;
 }
 
 .email-form input {
